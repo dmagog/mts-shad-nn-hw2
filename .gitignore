@@ -1,0 +1,38 @@
+# Данные соревнования (не распространяем)
+data/
+*.zip
+*.parquet
+
+# Артефакты обучения, веса, эмбеддинги, окружение
+artifacts/
+models/
+hf_models/
+env/
+.venv/
+
+# Служебное / агентское
+.claude/
+build_notebook.py
+scripts/
+eda/
+*.ps1
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Kaggle kernel служебные (метаданные, выгрузки)
+kdiag/
+kfeat/
+kir/
+kir_out/
+kdiag_out/
+kkernel/
+kkernel_rw/
+kout/
+kout2/
+krw/
+kfeat_watch.log
